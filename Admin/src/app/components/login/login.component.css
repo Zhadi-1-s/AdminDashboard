@@ -14,4 +14,18 @@ mat-form-field{
 }
 button{
     width: 250px;
+    height: 50px;
+    margin-top: 30px;
+}
+.account{
+    margin-top: 20px;
+}
+.account :hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.header{
+    color:white;
+    margin-left: auto;
+    margin-right: auto;
 }

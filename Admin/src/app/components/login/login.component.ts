@@ -23,10 +23,8 @@ export function tokenGetter() {
 })
 export class LoginComponent {
 
-  form: FormGroup = new FormGroup({
-    username: new FormControl(''),
-    password: new FormControl(''),
-  });
+  email:string = '';
+  password = '';
 
 
 
