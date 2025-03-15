@@ -1,0 +1,37 @@
+mat-card{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    width: 400px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+}
+mat-form-field{
+    padding: 20px 0 0;
+    margin-top: 20px;
+    width: 350px;
+}
+button{
+    width: 250px;
+    height: 50px;
+    margin-top: 30px;
+}
+.account{
+    margin-top: 20px;
+}
+.account :hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.header{
+    color:white;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    width: 500px;
+   
+    text-align:center;
+    font-size: 30px;
+    border-radius: 10px;
+}

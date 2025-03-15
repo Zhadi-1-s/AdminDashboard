@@ -1,18 +1,18 @@
 <div style="padding: 20px; background-color: #3f51b5; height: 100%">
   <div class="header">
-    <h1>asdasdada</h1>
+    <h1>Admin Dashboard</h1>
   </div>
     <mat-card>
       <mat-form-field appearance="outline">
         <mat-icon matSuffix>account_circle</mat-icon>
         <mat-label>Email</mat-label>
-        <input matInput placeholder="Username or email" />
+        <input [(ngModel)]="email" matInput placeholder="Username or email" />
       </mat-form-field>
   
       <mat-form-field appearance="outline">
         <mat-icon matSuffix>password</mat-icon>
         <mat-label>Password</mat-label>
-        <input matInput type="password" placeholder="Password" />
+        <input [(ngModel)]="password" matInput type="password" placeholder="Password" />
       </mat-form-field>
   
       <button mat-raised-button color="primary">

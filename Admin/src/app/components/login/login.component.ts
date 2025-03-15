@@ -2,6 +2,7 @@ import { Component, importProvidersFrom } from '@angular/core';
 
 import { FormGroup, FormControl } from '@angular/forms';
 
+import { FormsModule } from "@angular/forms";
 import {MatCardModule} from '@angular/material/card'
 import {MatFormFieldModule} from '@angular/material/form-field';
 import { CommonModule } from '@angular/common';
@@ -17,7 +18,7 @@ export function tokenGetter() {
 @Component({
   selector: 'app-login',
   standalone:true,
-  imports: [MatCardModule,MatFormFieldModule,CommonModule,ReactiveFormsModule,MatIconModule,MatButtonModule,MatInputModule ],
+  imports: [MatCardModule,MatFormFieldModule,CommonModule,ReactiveFormsModule,MatIconModule,MatButtonModule,MatInputModule,FormsModule ],
   templateUrl: './login.component.html',
   styleUrl: './login.component.css'
 })
