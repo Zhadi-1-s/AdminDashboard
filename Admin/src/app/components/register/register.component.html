@@ -21,11 +21,11 @@
           <input [(ngModel)]="password" matInput type="password" placeholder="Password" />
         </mat-form-field>
     
-        <button mat-raised-button color="primary">
+        <button mat-raised-button color="primary" (click)="onRegister()">
           Login
         </button>
         <div class="account">
-          <span>Don't have an account ?</span>
+          <span>Already have an account? <a routerLink="/login">Login</a></span>
         </div>
       </mat-card>
     </div>
