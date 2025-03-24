@@ -1,0 +1,32 @@
+
+mat-card{
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #3f51b5;
+    color: white;
+    font-weight: 500;
+    flex-direction: row;
+}
+button{
+   color: white;
+   border-radius: 10px;
+   background-color: #3f51b5;
+   height: 30px;
+   font-weight: 500;
+   font-size: 18px;
+   border: none;
+   cursor: pointer;
+}
+.element{
+    display: flex;
+    flex-direction: row;
+    border-radius: 10px;
+    transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+    
+}
+.element:hover{
+    transform: translateY(-2px);
+    cursor: pointer;
+}

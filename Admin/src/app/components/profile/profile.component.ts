@@ -12,13 +12,14 @@ import { error } from 'console';
 })
 export class ProfileComponent implements OnInit {
 
-  user:any;
+  userName:string = 'Testing';
+
 
   ngOnInit(): void {
       this.authService.getuserProfile().subscribe(
         data => {
           console.log(data)
-          this.user = data;
+          // this.user = data;
         },
         error => 
           console.error('Error fetching profile', error)
